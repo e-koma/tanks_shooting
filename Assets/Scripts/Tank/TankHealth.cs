@@ -10,7 +10,6 @@ public class TankHealth : MonoBehaviour
     public Color m_ZeroHealthColor = Color.red;    
     public GameObject m_ExplosionPrefab;
     
-    /*
     private AudioSource m_ExplosionAudio;          
     private ParticleSystem m_ExplosionParticles;   
     private float m_CurrentHealth;  
@@ -33,7 +32,6 @@ public class TankHealth : MonoBehaviour
 
         SetHealthUI();
     }
-    */
 
     public void TakeDamage(float amount)
     {
